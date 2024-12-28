@@ -8,10 +8,6 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 
-//template_srzxgnm  template id
-// service id service_0pnb5rc
-
-//public key nT5TM779Mdb5Cl4ds
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
