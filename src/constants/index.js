@@ -24,6 +24,7 @@ import {
     threejs,
     MeetMatrix,
     Wanderlust,
+    auth-image,
   } from "../assets";
   
   export const navLinks = [
@@ -241,27 +242,27 @@ import {
       image: Wanderlust,
       source_code_Link: "https://github.com/ihthisham6/Wanderlust",
     },
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "FinChronicles:Banking Application",
+      description:
+        "Built with Next.js, FinChronicles is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ShadCN",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: auth-image,
+      source_code_link: "https://github.com/ihthisham6/FinChronicles-Banking_Application",
+    },
   ];
   
   export { services, technologies, experiences, projects };
