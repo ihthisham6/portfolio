@@ -263,7 +263,7 @@ import {
         },
       ],
        image: authimage,
-      source_code_link: "https://github.com/ihthisham6/FinChronicles-Banking_Application",
+      source_code_Link: "https://github.com/ihthisham6/FinChronicles-Banking_Application",
     },
   ];
   
