@@ -1,3 +1,4 @@
+import { image } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -24,7 +25,8 @@ import {
     threejs,
     MeetMatrix,
     Wanderlust,
-    auth-image,
+    authimage,
+
   } from "../assets";
   
   export const navLinks = [
@@ -243,9 +245,9 @@ import {
       source_code_Link: "https://github.com/ihthisham6/Wanderlust",
     },
     {
-      name: "FinChronicles:Banking Application",
+      name: "Banking Application",
       description:
-        "Built with Next.js, FinChronicles is a financial SaaS platform that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.",
+        "FinChronicles, a Next.js-based financial SaaS, connects bank accounts, shows real-time transactions, enables transfers, and manages finances.",
       tags: [
         {
           name: "nextjs",
@@ -260,7 +262,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: auth-image,
+       image: authimage,
       source_code_link: "https://github.com/ihthisham6/FinChronicles-Banking_Application",
     },
   ];
