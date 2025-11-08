@@ -30,6 +30,7 @@ import MeetMatrix from "./MeetMatrix.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import authimage from "./authimage.png";
+import Stock from "./Stock.png";
 
 
 export {
@@ -63,4 +64,5 @@ export {
   jobit,
   tripguide,
   Wanderlust,
+  Stock,
 };
