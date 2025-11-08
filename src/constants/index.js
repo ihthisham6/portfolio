@@ -26,6 +26,7 @@ import {
     MeetMatrix,
     Wanderlust,
     authimage,
+    Stock,
 
   } from "../assets";
   
@@ -202,6 +203,28 @@ import {
   // ];
   
   const projects = [
+
+    {
+      name: "Full Stack Stock Trading Platform",
+      description:
+        "A comprehensive stock trading platform built with the MERN stack, featuring real-time market data, user authentication, and advanced charting tools.",
+      tags: [
+        {
+          name: "MERN Stack",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "charts.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image:Stock,
+      source_code_Link: "https://github.com/ihthisham6/Stock_Trading_Application",
+    },
     {
       name: "MeetMatrix",
       description:
@@ -223,27 +246,7 @@ import {
       image: MeetMatrix,
       source_code_Link: "https://github.com/ihthisham6/MeetMatrix",
     },
-    {
-      name: "Wanderlust",
-      description:
-        "Wanderlust is a MERN stack web app that helps travelers discover destinations, plan trips, and share experiences with a like-minded community.",
-      tags: [
-        {
-          name: "Javascript",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: Wanderlust,
-      source_code_Link: "https://github.com/ihthisham6/Wanderlust",
-    },
+   
     {
       name: "Banking Application",
       description:
@@ -264,6 +267,27 @@ import {
       ],
        image: authimage,
       source_code_Link: "https://github.com/ihthisham6/FinChronicles-Banking_Application",
+    },
+     {
+      name: "Wanderlust",
+      description:
+        "Wanderlust is a MERN stack web app that helps travelers discover destinations, plan trips, and share experiences with a like-minded community.",
+      tags: [
+        {
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Wanderlust,
+      source_code_Link: "https://github.com/ihthisham6/Wanderlust",
     },
   ];
   
